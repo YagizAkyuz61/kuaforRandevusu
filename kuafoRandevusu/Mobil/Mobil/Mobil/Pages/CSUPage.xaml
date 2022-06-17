@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Pages.CSUPage" BackgroundColor="#c9c9c9" Title="Üye Ol">
+    <ContentPage.Padding>
+        <!--iOSlarda yazıyı üst çubuğun altında başlatır-->
+        <OnPlatform x:TypeArguments="Thickness" iOS="20"/>
+    </ContentPage.Padding>
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Entry x:Name="nameEnt" Placeholder="Ad, Soyad" Keyboard="Default" FontSize="20"
+                   WidthRequest="325" Margin="0,0,0,7"/>
+                <Entry x:Name="nickEnt" Placeholder="Kullanıcı adı" Keyboard="Default" FontSize="20"
+                   WidthRequest="325" Margin="0,0,0,7"/>
+                <Entry x:Name="emailEnt" Placeholder="Email" Keyboard="Email" FontSize="20"
+                   WidthRequest="325" Margin="0,0,0,7"/>
+                <Entry x:Name="passEnt" Placeholder="Şifre" Keyboard="Default" FontSize="20"
+                   WidthRequest="325" Margin="0,0,0,7"/>
+                <Entry x:Name="phoneEnt" Placeholder="Telefon numarası" Keyboard="Telephone" FontSize="20"
+                   WidthRequest="325" Margin="0,0,0,7"/>
+                <Button x:Name="singUpButton" Text="üye ol" FontSize="20" FontAttributes="Bold" TextColor="#4682b4"
+                    BackgroundColor="White" Clicked="singUpButton_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Pages.PricePage"
+             BackgroundColor="#c9c9c9" Title="Fiyatlandırma">
+    <ContentPage.Padding>
+        <!--iOSlarda yazıyı üst çubuğun altında başlatır-->
+        <OnPlatform x:TypeArguments="Thickness" iOS="20"/>
+    </ContentPage.Padding>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Picker x:Name="genderPC" Title="Kadın-Erkek Kuaförü" TextColor="Black" FontSize="20"
+                    ItemDisplayBinding="{Binding Gender}" SelectedIndexChanged="genderPC_SelectedIndexChanged"/>
+            <Picker x:Name="operationPC" Title="İşlemler" TextColor="Black" FontSize="20"
+                    ItemDisplayBinding="{Binding Operation}" IsEnabled="False"/>
+            <Entry x:Name="priceENT" Keyboard="Numeric" Placeholder="Fiyat giriniz" TextColor="Black" FontSize="20"/>
+            <Button x:Name="saveButton" Text="onayla" FontSize="20" BackgroundColor="White"
+                    Margin="0,0,0,7" FontAttributes="Bold" TextColor="#4682b4" Clicked="saveButton_Clicked"/>
+
+            <ListView x:Name="list" BackgroundColor="White" Margin="5,5,5,5" ItemSelected="list_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="60" MinimumHeightRequest="60" Grid.Column="0" Grid.ColumnSpan="2">
+                                    <Label Text="{Binding Operation}" TextColor="#4682b4" FontAttributes="Bold" 
+                                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="0" FontSize="20"/>
+                                </StackLayout>
+
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="60" MinimumHeightRequest="60" Grid.Column="2">
+                                    <Label Text="{Binding Price}" TextColor="#4682b4" FontAttributes="Bold" 
+                                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="2" FontSize="20"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Label x:Name="idTXT" HorizontalOptions="Center"/>
+            <Label x:Name="opTXT" HorizontalOptions="Center"/>
+            <Entry x:Name="updateENT" Keyboard="Numeric" Placeholder="Fiyat giriniz" TextColor="Black" FontSize="20"/>
+            <Button x:Name="updateButton" Text="onayla" FontSize="20" BackgroundColor="White"
+                    FontAttributes="Bold" TextColor="#4682b4" Clicked="updateButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

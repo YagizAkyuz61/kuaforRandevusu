@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Pages.SInPage"
+             BackgroundColor="#4682b4" Title="Kuaför Girişi" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Padding>
+        <!--iOSlarda yazıyı üst çubuğun altında başlatır-->
+        <OnPlatform x:TypeArguments="Thickness" iOS="20"/>
+    </ContentPage.Padding>
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+            <Label Text="kuaföRandevusu" FontSize="45" TextColor="White"/>
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="15">
+                <Entry x:Name="userNameTXT" Placeholder="Kullanıcı Adı" Keyboard="Default" FontSize="20"
+                   WidthRequest="325" Margin="0,0,0,7" TextColor="White"/>
+                <Entry x:Name="passwordTXT" Placeholder="Şifre" IsPassword="True" Keyboard="Default" FontSize="20"
+                   WidthRequest="325" Margin="0,0,0,7" TextColor="White"/>
+                <Label Text="Kuaför Girişi" TextColor="White" FontSize="25" FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                <Button x:Name="loginBTN" Text="giriş yap" FontSize="20" FontAttributes="Bold" TextColor="#4682b4"
+                    BackgroundColor="White" Margin="0,0,0,7" Clicked="loginBTN_Clicked"/>
+                <Button x:Name="singUpBTN" Text="üye ol" FontSize="20" FontAttributes="Bold" TextColor="#4682b4"
+                    BackgroundColor="White" Margin="0,0,0,12" Clicked="singUpBTN_Clicked"/>
+
+                <Label Text="Müşteri Girişi" TextColor="White" FontSize="25" FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"/>
+                <Button x:Name="customerBTN" Text="Randevu Al" FontSize="20" FontAttributes="Bold" Margin="0,0,0,7"
+                    BackgroundColor="White" TextColor="#4682b4" Clicked="customerBTN_Clicked"/>
+                <Button x:Name="randevuButton" Text="randevularım" FontSize="20" BackgroundColor="White" Margin="0,0,0,7"
+                    FontAttributes="Bold" TextColor="#4682b4" Clicked="randevuButton_Clicked"/>
+                <Button x:Name="csuButton" Text="üye ol" FontSize="20" BackgroundColor="White"
+                    FontAttributes="Bold" TextColor="#4682b4" Clicked="csuButton_Clicked"/>
+            </StackLayout>
+            <Label Text="aKyzSoft" FontSize="22" FontAttributes="Italic" TextColor="#120938" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

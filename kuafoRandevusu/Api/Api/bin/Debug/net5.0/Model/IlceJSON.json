@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "iName": "Aladað",
+    "name": "Adana"
+  },
+  {
+    "id": 2,
+    "iName": "Ceyhan",
+    "name": "Adana"
+  },
+  {
+    "id": 3,
+    "iName": "Çukurova",
+    "name": "Adana"
+  },
+  {
+    "id": 4,
+    "iName": "Feke",
+    "name": "Adana"
+  },
+  {
+    "id": 5,
+    "iName": "Ýmamoðlu",
+    "name": "Adana"
+  },
+  {
+    "id": 6,
+    "iName": "Karaisalý",
+    "name": "Adana"
+  },
+  {
+    "id": 7,
+    "iName": "Karataþ",
+    "name": "Adana"
+  },
+  {
+    "id": 8,
+    "iName": "Kozan",
+    "name": "Adana"
+  },
+  {
+    "id": 9,
+    "iName": "Pozantý",
+    "name": "Adana"
+  },
+  {
+    "id": 10,
+    "iName": "Saimbeyli",
+    "name": "Adana"
+  },
+  {
+    "id": 11,
+    "iName": "Sarýçam",
+    "name": "Adana"
+  },
+  {
+    "id": 12,
+    "iName": "Seyhan",
+    "name": "Adana"
+  },
+  {
+    "id": 13,
+    "iName": "Tufanbeyli",
+    "name": "Adana"
+  },
+  {
+    "id": 14,
+    "iName": "Yumurtalýk",
+    "name": "Adana"
+  },
+  {
+    "id": 15,
+    "iName": "Yüreðir",
+    "name": "Adana"
+  },
+  {
+    "id": 16,
+    "iName": "Akyurt",
+    "name": "Ankara"
+  },
+  {
+    "id": 17,
+    "iName": "Ayaþ",
+    "name": "Ankara"
+  },
+  {
+    "id": 18,
+    "iName": "Balâ",
+    "name": "Ankara"
+  },
+  {
+    "id": 19,
+    "iName": "Beypazarý",
+    "name": "Ankara"
+  },
+  {
+    "id": 20,
+    "iName": "Çamlýdere",
+    "name": "Ankara"
+  },
+  {
+    "id": 21,
+    "iName": "Çankaya",
+    "name": "Ankara"
+  },
+  {
+    "id": 22,
+    "iName": "Çubuk",
+    "name": "Ankara"
+  },
+  {
+    "id": 23,
+    "iName": "Elmadað",
+    "name": "Ankara"
+  },
+  {
+    "id": 24,
+    "iName": "Etimesgut",
+    "name": "Ankara"
+  },
+  {
+    "id": 25,
+    "iName": "Evren",
+    "name": "Ankara"
+  },
+  {
+    "id": 26,
+    "iName": "Gölbaþý",
+    "name": "Ankara"
+  },
+  {
+    "id": 27,
+    "iName": "Güdül",
+    "name": "Ankara"
+  },
+  {
+    "id": 28,
+    "iName": "Haymana",
+    "name": "Ankara"
+  },
+  {
+    "id": 29,
+    "iName": "Kahramankazan",
+    "name": "Ankara"
+  },
+  {
+    "id": 30,
+    "iName": "Kalecik",
+    "name": "Ankara"
+  },
+  {
+    "id": 31,
+    "iName": "Keçiören",
+    "name": "Ankara"
+  },
+  {
+    "id": 32,
+    "iName": "Kýzýlcahamam",
+    "name": "Ankara"
+  },
+  {
+    "id": 33,
+    "iName": "Mamak",
+    "name": "Ankara"
+  },
+  {
+    "id": 34,
+    "iName": "Nallýhan",
+    "name": "Ankara"
+  },
+  {
+    "id": 35,
+    "iName": "Polatlý",
+    "name": "Ankara"
+  },
+  {
+    "id": 36,
+    "iName": "Pursaklar",
+    "name": "Ankara"
+  },
+  {
+    "id": 37,
+    "iName": "Sincan",
+    "name": "Ankara"
+  },
+  {
+    "id": 38,
+    "iName": "Þereflikoçhisar",
+    "name": "Ankara"
+  },
+  {
+    "id": 39,
+    "iName": "Yenimahalle",
+    "name": "Ankara"
+  },
+  {
+    "id": 40,
+    "iName": "Akseki",
+    "name": "Antalya"
+  },
+  {
+    "id": 41,
+    "iName": "Aksu",
+    "name": "Antalya"
+  },
+  {
+    "id": 42,
+    "iName": "Alanya",
+    "name": "Antalya"
+  },
+  {
+    "id": 43,
+    "iName": "Demre",
+    "name": "Antalya"
+  },
+  {
+    "id": 44,
+    "iName": "Döþemealtý",
+    "name": "Antalya"
+  },
+  {
+    "id": 45,
+    "iName": "Elmalý",
+    "name": "Antalya"
+  },
+  {
+    "id": 46,
+    "iName": "Finike",
+    "name": "Antalya"
+  },
+  {
+    "id": 47,
+    "iName": "Gazipaþa",
+    "name": "Antalya"
+  },
+  {
+    "id": 48,
+    "iName": "Gündoðmuþ",
+    "name": "Antalya"
+  },
+  {
+    "id": 49,
+    "iName": "Ýbradi",
+    "name": "Antalya"
+  },
+  {
+    "id": 50,
+    "iName": "Kaþ",
+    "name": "Antalya"
+  },
+  {
+    "id": 51,
+    "iName": "Kemer",
+    "name": "Antalya"
+  },
+  {
+    "id": 52,
+    "iName": "Kepez",
+    "name": "Antalya"
+  },
+  {
+    "id": 53,
+    "iName": "Konyaaltý",
+    "name": "Antalya"
+  },
+  {
+    "id": 54,
+    "iName": "Korkuteli",
+    "name": "Antalya"
+  },
+  {
+    "id": 55,
+    "iName": "Kumluca",
+    "name": "Antalya"
+  },
+  {
+    "id": 56,
+    "iName": "Manavgat",
+    "name": "Antalya"
+  },
+  {
+    "id": 57,
+    "iName": "Muratpaþa",
+    "name": "Antalya"
+  },
+  {
+    "id": 58,
+    "iName": "Serik",
+    "name": "Antalya"
+  },
+  {
+    "id": 59,
+    "iName": "Büyükorhan",
+    "name": "Bursa"
+  },
+  {
+    "id": 60,
+    "iName": "Gemlik",
+    "name": "Bursa"
+  },
+  {
+    "id": 61,
+    "iName": "Harmancýk",
+    "name": "Bursa"
+  },
+  {
+    "id": 62,
+    "iName": "Ýnegöl",
+    "name": "Bursa"
+  },
+  {
+    "id": 63,
+    "iName": "Ýznik",
+    "name": "Bursa"
+  },
+  {
+    "id": 64,
+    "iName": "Karacabey",
+    "name": "Bursa"
+  },
+  {
+    "id": 65,
+    "iName": "Keles",
+    "name": "Bursa"
+  },
+  {
+    "id": 66,
+    "iName": "Kestel",
+    "name": "Bursa"
+  },
+  {
+    "id": 67,
+    "iName": "Mudanya",
+    "name": "Bursa"
+  },
+  {
+    "id": 68,
+    "iName": "Mustafakemalpaþa",
+    "name": "Bursa"
+  },
+  {
+    "id": 69,
+    "iName": "Nilüfer",
+    "name": "Bursa"
+  },
+  {
+    "id": 70,
+    "iName": "Orhaneli",
+    "name": "Bursa"
+  },
+  {
+    "id": 71,
+    "iName": "Orhangazi",
+    "name": "Bursa"
+  },
+  {
+    "id": 72,
+    "iName": "Osmangazi",
+    "name": "Bursa"
+  },
+  {
+    "id": 73,
+    "iName": "Yeniþehir",
+    "name": "Bursa"
+  },
+  {
+    "id": 74,
+    "iName": "Yýldýrým",
+    "name": "Bursa"
+  },
+  {
+    "id": 75,
+    "iName": "Alpu",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 76,
+    "iName": "Beylikova",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 77,
+    "iName": "Çifteler",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 78,
+    "iName": "Günyüzü",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 79,
+    "iName": "Han",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 80,
+    "iName": "Ýnönü",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 81,
+    "iName": "Mahmudiye",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 82,
+    "iName": "Mihalgazi",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 83,
+    "iName": "Mihalýççýk",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 84,
+    "iName": "Odunpazarý",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 85,
+    "iName": "Sarýcakaya",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 86,
+    "iName": "Seyitgazi",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 87,
+    "iName": "Sivrihisar",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 88,
+    "iName": "Tepebaþý",
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 89,
+    "iName": "Adalar",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 90,
+    "iName": "Arnavutköy",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 91,
+    "iName": "Ataþehir",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 92,
+    "iName": "Avcýlar",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 93,
+    "iName": "Baðcýlar",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 94,
+    "iName": "Bahçelievler",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 95,
+    "iName": "Bakýrköy",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 96,
+    "iName": "Baþakþehir",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 97,
+    "iName": "Bayrampaþa",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 98,
+    "iName": "Beþiktaþ",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 99,
+    "iName": "Beylikdüzü",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 100,
+    "iName": "Beyoðlu",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 101,
+    "iName": "Büyükçekmece",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 102,
+    "iName": "Beykoz",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 103,
+    "iName": "Çatalca",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 104,
+    "iName": "Çekmeköy",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 105,
+    "iName": "Esenler",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 106,
+    "iName": "Esenyurt",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 107,
+    "iName": "Eyüp",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 108,
+    "iName": "Fatih",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 109,
+    "iName": "Gaziosmanpaþa",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 110,
+    "iName": "Güngören",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 111,
+    "iName": "Kadýköy",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 112,
+    "iName": "Kaðýthane",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 113,
+    "iName": "Kartal",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 114,
+    "iName": "Küçükçekmece",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 115,
+    "iName": "Maltepe",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 116,
+    "iName": "Pendik",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 117,
+    "iName": "Sancaktepe",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 118,
+    "iName": "Sarýyer",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 119,
+    "iName": "Silivri",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 120,
+    "iName": "Sultanbeyli",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 121,
+    "iName": "Sultangazi",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 122,
+    "iName": "Þile",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 123,
+    "iName": "Þiþli",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 124,
+    "iName": "Tuzla",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 125,
+    "iName": "Ümraniye",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 126,
+    "iName": "Üsküdar",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 127,
+    "iName": "Zeytinburnu",
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 128,
+    "iName": "Aliaða",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 129,
+    "iName": "Balçova",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 130,
+    "iName": "Bayýndýr",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 131,
+    "iName": "Bayraklý",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 132,
+    "iName": "Bergama",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 133,
+    "iName": "Beydað",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 134,
+    "iName": "Bornova",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 135,
+    "iName": "Buca",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 136,
+    "iName": "Çeþme",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 137,
+    "iName": "Çiðli",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 138,
+    "iName": "Dikili",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 139,
+    "iName": "Foça",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 140,
+    "iName": "Gaziemir",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 141,
+    "iName": "Güzelbahçe",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 142,
+    "iName": "Karabaðlar",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 143,
+    "iName": "Karaburun",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 144,
+    "iName": "Karþýyaka",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 145,
+    "iName": "Kemalpaþa",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 146,
+    "iName": "Kýnýk",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 147,
+    "iName": "Kiraz",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 148,
+    "iName": "Konak",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 149,
+    "iName": "Menderes",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 150,
+    "iName": "Menemen",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 151,
+    "iName": "Narlýdere",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 152,
+    "iName": "Ödemiþ",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 153,
+    "iName": "Seferihisar",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 154,
+    "iName": "Selçuk",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 155,
+    "iName": "Tire",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 156,
+    "iName": "Torbalý",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 157,
+    "iName": "Urla",
+    "name": "Ýzmir"
+  },
+  {
+    "id": 158,
+    "iName": "19 Mayýs",
+    "name": "Samsun"
+  },
+  {
+    "id": 159,
+    "iName": "Alaçam",
+    "name": "Samsun"
+  },
+  {
+    "id": 160,
+    "iName": "Asarcýk",
+    "name": "Samsun"
+  },
+  {
+    "id": 161,
+    "iName": "Atakum",
+    "name": "Samsun"
+  },
+  {
+    "id": 162,
+    "iName": "Ayvacýk",
+    "name": "Samsun"
+  },
+  {
+    "id": 163,
+    "iName": "Bafra",
+    "name": "Samsun"
+  },
+  {
+    "id": 164,
+    "iName": "Canik",
+    "name": "Samsun"
+  },
+  {
+    "id": 165,
+    "iName": "Çarþamba",
+    "name": "Samsun"
+  },
+  {
+    "id": 166,
+    "iName": "Havza",
+    "name": "Samsun"
+  },
+  {
+    "id": 167,
+    "iName": "Ýlkadým",
+    "name": "Samsun"
+  },
+  {
+    "id": 168,
+    "iName": "Kavak",
+    "name": "Samsun"
+  },
+  {
+    "id": 169,
+    "iName": "Ladik",
+    "name": "Samsun"
+  },
+  {
+    "id": 170,
+    "iName": "Salýpazarý",
+    "name": "Samsun"
+  },
+  {
+    "id": 171,
+    "iName": "Tekkeköy",
+    "name": "Samsun"
+  },
+  {
+    "id": 172,
+    "iName": "Terme",
+    "name": "Samsun"
+  },
+  {
+    "id": 173,
+    "iName": "Vezirköprü",
+    "name": "Samsun"
+  },
+  {
+    "id": 174,
+    "iName": "Yakakent",
+    "name": "Samsun"
+  },
+  {
+    "id": 175,
+    "iName": "Akçaabat",
+    "name": "Trabzon"
+  },
+  {
+    "id": 176,
+    "iName": "Araklý",
+    "name": "Trabzon"
+  },
+  {
+    "id": 177,
+    "iName": "Arsin",
+    "name": "Trabzon"
+  },
+  {
+    "id": 178,
+    "iName": "Beþikdüzü",
+    "name": "Trabzon"
+  },
+  {
+    "id": 179,
+    "iName": "Çarþýbaþý",
+    "name": "Trabzon"
+  },
+  {
+    "id": 180,
+    "iName": "Çaykara",
+    "name": "Trabzon"
+  },
+  {
+    "id": 181,
+    "iName": "Dernekpazarý",
+    "name": "Trabzon"
+  },
+  {
+    "id": 182,
+    "iName": "Düzköy",
+    "name": "Trabzon"
+  },
+  {
+    "id": 183,
+    "iName": "Hayrat",
+    "name": "Trabzon"
+  },
+  {
+    "id": 184,
+    "iName": "Köprübaþý",
+    "name": "Trabzon"
+  },
+  {
+    "id": 185,
+    "iName": "Maçka",
+    "name": "Trabzon"
+  },
+  {
+    "id": 186,
+    "iName": "Of",
+    "name": "Trabzon"
+  },
+  {
+    "id": 187,
+    "iName": "Ortahisar",
+    "name": "Trabzon"
+  },
+  {
+    "id": 188,
+    "iName": "Sürmene",
+    "name": "Trabzon"
+  },
+  {
+    "id": 189,
+    "iName": "Þalpazarý",
+    "name": "Trabzon"
+  },
+  {
+    "id": 190,
+    "iName": "Tonya",
+    "name": "Trabzon"
+  },
+  {
+    "id": 191,
+    "iName": "Vakfýkebir",
+    "name": "Trabzon"
+  },
+  {
+    "id": 192,
+    "iName": "Yomra",
+    "name": "Trabzon"
+  }
+]

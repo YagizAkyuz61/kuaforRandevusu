@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Pages.ProfilePage"
+             BackgroundColor="#c9c9c9" Title="Hesap Ayarları">
+    <ContentPage.Padding>
+        <!--iOSlarda yazıyı üst çubuğun altında başlatır-->
+        <OnPlatform x:TypeArguments="Thickness" iOS="20"/>
+    </ContentPage.Padding>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                <Label x:Name="ıdLab" Text="{Binding Id}" TextColor="Black" FontSize="15"
+                   VerticalTextAlignment="Start" HorizontalOptions="Center"/>
+                <Entry x:Name="nameEntry" Placeholder="Kuaför adı" Keyboard="Default" FontSize="20"
+                   WidthRequest="325" Margin="0,0,0,7"/>
+                <Entry x:Name="nickEnt" Placeholder="Kullanıcı adı" Keyboard="Default" FontSize="20"
+                   WidthRequest="325"/>
+                <Entry x:Name="phoneEnt" Placeholder="Telefon numarası" Keyboard="Telephone" FontSize="20"
+                   WidthRequest="325"/>
+                <Entry x:Name="addressEnt" Placeholder="Adres" Keyboard="Default" FontSize="20"
+                   WidthRequest="325" IsEnabled="False"/>
+                <Picker x:Name="cityPC" Title="Şehir" TextColor="Black" FontSize="20"
+                    ItemDisplayBinding="{Binding Name}" SelectedIndexChanged="cityPC_SelectedIndexChanged"/>
+                <Picker x:Name="ilcePC" Title="İlçe" TextColor="Black" FontSize="20" IsEnabled="False"
+                    ItemDisplayBinding="{Binding IName}"/>
+                <Picker x:Name="genderPC" Title="Kadın-Erkek kuaförü" TextColor="Black" FontSize="20"
+                    ItemDisplayBinding="{Binding Gender}"/>
+                <Label Text="Lütfen şehir, ilçe ve kuaför türünüzü seçmeyi unutmayın." FontSize="18" FontAttributes="Bold"
+                   HorizontalOptions="Center" HorizontalTextAlignment="Center" IsVisible="false"/>
+                <ProgressBar x:Name="progressBar" IsVisible="false"/>
+                <Label x:Name="waitLBL" FontSize="18" TextColor="Black" FontAttributes="Bold" IsVisible="false"
+                   HorizontalOptions="Center" Text="Lütfen bekleyiniz..."/>
+                <Button x:Name="priceButton" Text="Fiyat Belirle" FontSize="20" FontAttributes="Bold" TextColor="#4682b4"
+                    BackgroundColor="White" Clicked="priceButton_Clicked"/>
+                <Button x:Name="timeButton" Text="Rezervasyon Saatleri" FontSize="20" FontAttributes="Bold" TextColor="#4682b4"
+                    BackgroundColor="White" Clicked="timeButton_Clicked"/>
+                <Button x:Name="locationButton" Text="Konumu değiştir" FontSize="20" FontAttributes="Bold" TextColor="#4682b4"
+                    BackgroundColor="White" Clicked="locationButton_Clicked"/>
+                <Button x:Name="saveButton" Text="Kaydet" FontSize="20" FontAttributes="Bold" TextColor="#4682b4"
+                    BackgroundColor="White" Clicked="saveButton_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

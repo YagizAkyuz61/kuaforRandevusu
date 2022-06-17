@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Pages.cPage"
+             BackgroundColor="#c9c9c9" Title="kuaföRandevusu" NavigationPage.HasBackButton="False">
+    <ContentPage.Padding>
+        <!--iOSlarda yazıyı üst çubuğun altında başlatır-->
+        <OnPlatform x:TypeArguments="Thickness" iOS="20"/>
+    </ContentPage.Padding>
+
+    <ContentPage.Content>
+        <StackLayout Margin="15,10,15,5">
+            <Picker x:Name="cityPC" Title="Şehir" TextColor="Black" FontSize="20"
+                    ItemDisplayBinding="{Binding Name}" SelectedIndexChanged="cityPC_SelectedIndexChanged"/>
+            <Picker x:Name="ilcePC" Title="İlçe" TextColor="Black" FontSize="20" IsEnabled="False"
+                    ItemDisplayBinding="{Binding IName}"/>
+            <Picker x:Name="genderPC" Title="Kadın-Erkek Kuaförü" TextColor="Black" FontSize="20"
+                    ItemDisplayBinding="{Binding Gender}"/>
+            <SearchBar x:Name="searchENT" Placeholder="Kuaför adı..." TextColor="Black" FontSize="20"/>
+            <Button x:Name="searchButton" Text="ara" FontSize="20" BackgroundColor="White"
+                    FontAttributes="Bold" TextColor="#4682b4" Clicked="searchButton_Clicked"/>
+            <ProgressBar x:Name="progressBar" IsVisible="false"/>
+            <Label x:Name="waitLBL" FontSize="18" TextColor="Black" FontAttributes="Bold" IsVisible="false"
+                   HorizontalOptions="Center" Text="Lütfen bekleyiniz..."/>
+            <ListView x:Name="list" BackgroundColor="White" Margin="5,5,5,5" ItemSelected="list_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout HeightRequest="90" HorizontalOptions="Center" VerticalOptions="Center">
+                                <Label Text="{Binding Name}" TextColor="#4682b4" FontAttributes="Bold" FontSize="20" VerticalTextAlignment="Center"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button x:Name="lastBTN" FontSize="20" FontAttributes="Bold" TextColor="#4682b4" 
+                    BackgroundColor="White" Clicked="lastBTN_Clicked"/>
+            <Button x:Name="menuBTN" Text="Menüye Dön" FontSize="20" FontAttributes="Bold" TextColor="#4682b4" 
+                    BackgroundColor="White" Clicked="menuBTN_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

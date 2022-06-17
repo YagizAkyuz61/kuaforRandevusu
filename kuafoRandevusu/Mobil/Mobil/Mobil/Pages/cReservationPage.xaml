@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Pages.cReservationPage"
+             BackgroundColor="#c9c9c9" Title="Randevularım">
+    <ContentPage.Padding>
+        <!--iOSlarda yazıyı üst çubuğun altında başlatır-->
+        <OnPlatform x:TypeArguments="Thickness" iOS="20"/>
+    </ContentPage.Padding>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="reserList" Background="White" Margin="5,5,5,5" ItemSelected="reserList_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="60" MinimumHeightRequest="60" Grid.Column="0">
+                                    <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}" TextColor="#4682b4" FontAttributes="Bold"
+                                           HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="0" FontSize="17"/>
+                                </StackLayout>
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="60" MinimumHeightRequest="60" Grid.Column="1">
+                                    <Label Text="{Binding Time}" TextColor="#4682b4" FontAttributes="Bold"
+                                           HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="1" FontSize="17"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Label Text="Rezervasyon detayı veya iptali için rezervasyona tıklayın." TextColor="Black" FontSize="17" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

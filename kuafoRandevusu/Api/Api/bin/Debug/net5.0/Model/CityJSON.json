@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Adana"
+  },
+  {
+    "id": 2,
+    "name": "Ankara"
+  },
+  {
+    "id": 3,
+    "name": "Antalya"
+  },
+  {
+    "id": 4,
+    "name": "Bursa"
+  },
+  {
+    "id": 5,
+    "name": "Eskiþehir"
+  },
+  {
+    "id": 6,
+    "name": "Ýstanbul"
+  },
+  {
+    "id": 7,
+    "name": "Ýzmir"
+  },
+  {
+    "id": 8,
+    "name": "Samsun"
+  },
+  {
+    "id": 9,
+    "name": "Trabzon"
+  }
+]

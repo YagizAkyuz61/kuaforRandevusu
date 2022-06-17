@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sN5cFSbMym2ZzUeKTgqmsEb2EQv69gbiw7thtsZU+JRxv0EklrrKyBvIPWrVEFhc+Zq45XnVahlOXPaLYVQCSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\akyz6\\kuafoRandevusu\\Mobil\\Mobil\\Mobil.iOS\\Mobil.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akyz6\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\akyz6\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

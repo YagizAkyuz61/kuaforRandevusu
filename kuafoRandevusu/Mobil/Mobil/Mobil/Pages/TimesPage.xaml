@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Pages.TimesPage"
+             BackgroundColor="#c9c9c9" Title="Randevu Saatleri">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label x:Name="kidLBL" FontSize="17" FontAttributes="Bold"/>
+            <ListView x:Name="list" BackgroundColor="White" Margin="5,5,5,5" ItemSelected="list_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="60" MinimumHeightRequest="60">
+                                <Label Text="{Binding Time}" TextColor="#4682b4" FontAttributes="Bold" 
+                                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontSize="20"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Label x:Name="acceptLBL" Text="Randevuları alacağınız saatleri yukarıdan seçin." FontSize="20" FontAttributes="Bold"
+                   VerticalOptions="Center" HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

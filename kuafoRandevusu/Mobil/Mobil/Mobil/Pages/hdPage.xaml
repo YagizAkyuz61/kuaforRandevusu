@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Pages.hdPage"
+             BackgroundColor="#c9c9c9" Title="Randevular">
+    <ContentPage.Padding>
+        <!--iOSlarda yazıyı üst çubuğun altında başlatır-->
+        <OnPlatform x:TypeArguments="Thickness" iOS="20"/>
+    </ContentPage.Padding>
+
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <ListView x:Name="list" BackgroundColor="White" Margin="5,5,5,5" ItemSelected="list_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="60" MinimumHeightRequest="60" Grid.Column="0">
+                                    <Label Text="{Binding Date, StringFormat='{0:dd/MM/yyyy}'}" TextColor="#4682b4" FontAttributes="Bold" 
+                                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="0" FontSize="20"/>
+                                </StackLayout>
+
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="60" MinimumHeightRequest="60" Grid.Column="1">
+                                    <Label Text="{Binding Time}" TextColor="#4682b4" FontAttributes="Bold" 
+                                       HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Column="1" FontSize="20"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Label Text="Rezervasyon detayı veya iptali için rezervasyona tıklayın." TextColor="Black" FontSize="17" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+            <Button x:Name="profileBTN" Text="Hesap Ayarları" FontSize="20" FontAttributes="Bold" TextColor="#4682b4" 
+                    BackgroundColor="White" Clicked="profileBTN_Clicked"/>
+            <Button x:Name="menuBTN" Text="Menüye Dön" FontSize="20" FontAttributes="Bold" TextColor="#4682b4" 
+                    BackgroundColor="White" Clicked="menuBTN_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

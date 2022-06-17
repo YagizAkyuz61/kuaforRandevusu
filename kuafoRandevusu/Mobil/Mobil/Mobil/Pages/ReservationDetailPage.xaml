@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobil.Pages.ReservationDetailPage"
+             BackgroundColor="#c9c9c9" Title="Randevu Detayları">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="0">
+                        <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Text="Rezervasyon ID:"/>
+                        <Label x:Name="idTXT" FontSize="22" TextColor="#4682b4"/>
+                        <Label Text=" "/>
+
+                        <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Text="Müşteri ID:"/>
+                        <Label x:Name="cidTXT" FontSize="22" TextColor="#4682b4"/>
+                        <Label Text=" "/>
+
+                        <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Text="Yapılacak işlem:"/>
+                        <Label x:Name="operationTXT" FontSize="22" TextColor="#4682b4"/>
+                        <Label Text=" "/>
+
+                        <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Text="Rezervasyon saati:"/>
+                        <Label x:Name="timeTXT" FontSize="22" TextColor="#4682b4"/>
+                    </StackLayout>
+
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Grid.Column="1">
+                        <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Text="Kuaför ID:"/>
+                        <Label x:Name="kidTXT" FontSize="22" TextColor="#4682b4"/>
+                        <Label Text=" "/>
+
+                        <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Text="Müşterinini adı:"/>
+                        <Label x:Name="nameTXT" FontSize="22" TextColor="#4682b4"/>
+                        <Label Text=" "/>
+
+                        <Label FontSize="22" TextColor="Black" FontAttributes="Bold" Text="Rezervasyon tarihi:"/>
+                        <Label x:Name="dateTXT" FontSize="22" TextColor="#4682b4"/>
+                        <Label Text=" "/>
+                    </StackLayout>
+                </Grid>
+
+                <Button x:Name="hdButton" Text="Kuaför Sayfası" FontSize="20" BackgroundColor="White" VerticalOptions="End" Margin="0,10,0,0"
+                    FontAttributes="Bold" TextColor="#4682b4" Clicked="hdButton_Clicked"/>
+                <Button x:Name="cancelButton" Text="Randevuyu İptal Et" FontSize="20" BackgroundColor="White" VerticalOptions="End" Margin="0,6,0,0"
+                    FontAttributes="Bold" TextColor="#4682b4" Clicked="cancelButton_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
